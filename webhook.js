@@ -57,8 +57,8 @@ function sendMessageSimpleBOT(event) {
   });
 }
 
-
-const apiaiApp = require('apiai')('1fde2216284b4deb90829bbef3366059');
+// Api Token you will get from API.AI Agent
+const apiaiApp = require('apiai')('CLIENT_ACCESS_TOKEN FROM api.ai');
 
 
 function sendMessage(event) {
@@ -75,9 +75,10 @@ function sendMessage(event) {
 
   let aiText = response.result.fulfillment.speech;
 
+  // Use Facebook Token
     request({
       url: 'https://graph.facebook.com/v2.6/me/messages',
-      qs: {access_token: 'EAACLgfFNDhgBAPryCATEQ9yLHqlTVNnDc40m6Lq961tZALPc65HZAsmWsiVV9kJ2RZA1q9G0kPPZCPPPzJIe6ov0r0cTr7rHPyZBU4ZCd7xDJi2YXJyOqcFyqES0RZCslXwZCyZAzPhRfVvIfqApoWWlB183pCpy0eTeP3aV5QsN3lAZDZD'},
+      qs: {access_token: 'FACEBOOK_PAGE_ACCESS_TOKEN'},
       method: 'POST',
       json: {
         recipient: {id: sender},
