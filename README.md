@@ -1,6 +1,13 @@
 # FaceBookCahtBot
 FaceBookCahtBot
 
+Make Sure you have already Installed Node JS Server and NJROK (For creating tunnle).
+
+
+We require tunnle because Facebook Api require secure url. So flow will be like.
+Facebook messanger will connect to NGRok tunnle and ngrok is connect to your local server . And then response will got to back to facebook messanger from local node js server via http request.
+
+
 
 I choose ngrok to serves a localhost to a public URL because it is simple and easy to use. This URL will be used as a Messenger webhook endpoint during the development, so you don’t need to deploy to a server until the app is completed.
 
@@ -45,3 +52,5 @@ Once you configure your app, install Express and body-parser:
 Run node webhook.js
 
 Check with your Messange Bot :)
+
+To get More details you can feed http://www.girliemac.com/feed.xml
