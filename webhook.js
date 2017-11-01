@@ -57,6 +57,7 @@ function sendMessageSimpleBOT(event) {
   });
 }
 
+
 // Api Token you will get from API.AI Agent
 const apiaiApp = require('apiai')('CLIENT_ACCESS_TOKEN FROM api.ai');
 
