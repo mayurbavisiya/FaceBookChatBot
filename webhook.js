@@ -42,7 +42,7 @@ function sendMessageSimpleBOT(event) {
 
   request({
     url: 'https://graph.facebook.com/v2.6/me/messages',
-    qs: {access_token: 'EAAB4CMZCFbpEBAMx7x1b84AJ2JPxD5aP705ymNpzINmiVeLevyNXWaIRJIMyM0Eq3AB7Pi1kOqD4ZCcRmsgdl7DtyDmRmwb0hGtZCEdYklNpn3E5V9KUPZB93mrdcLfohdAOesp5tAYf8L2oolIWwxMQJHoS0aIEILWetnvKhQZDZD'},
+    qs: {access_token: 'FACEBOOK_PAGE_ACCESS_TOKEN'},
     method: 'POST',
     json: {
       recipient: {id: sender},
