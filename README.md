@@ -35,7 +35,7 @@ Install request to POST messages:
 $ npm install request --save
 
 
-2. Using API.ai with Your Facebook Messenger Bot
+2. Using API.ai with Your Facebook Messenger Bot(Smart Chat Bot)
 -----------------------------------------------------
 
 API.ai allows developers to integrate your app with the AI system with speech-to-text and natural language processing.
