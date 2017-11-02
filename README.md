@@ -4,8 +4,8 @@ FaceBookCahtBot
 Make Sure you have already Installed Node JS Server and NJROK (For creating tunnle).
 
 
-We require tunnle because Facebook Api require secure url. So flow will be like.
-Facebook messanger will connect to NGRok tunnle and ngrok is connect to your local server . And then response will got to back to facebook messanger from local node js server via http request.
+We require tunnle because Facebook Api require secure url. So flow will be like,
+Facebook messanger will connect to NGRok tunnle and ngrok is connect to your local node js server , then response will go to back to facebook messanger from local node js server via http request.
 
 
 
@@ -17,7 +17,7 @@ $ ngrok http 5000
 When you start ngrok, it will display a public URL of your tunnel in the terminal. We will need the URL later when setting up the Facebook app. (In the screenshot, the URL is https://47ba4dd4.ngrok.io)
 
 1) Simple Chat Bot(Reply with same message)
--------------------------------------------------
+-----------------------------------------------------
 Writing a Webhook with Express.js
 
 Create your app directory and set up your Node.js app:
@@ -36,6 +36,7 @@ $ npm install request --save
 
 
 2. Using API.ai with Your Facebook Messenger Bot
+-----------------------------------------------------
 
 API.ai allows developers to integrate your app with the AI system with speech-to-text and natural language processing.
 
