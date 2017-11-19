@@ -1,5 +1,5 @@
-# FaceBookCahtBot
-FaceBookCahtBot
+# FaceBookChatBot
+FaceBookChatBot
 
 Make Sure you have already Installed Node JS Server and NJROK (For creating tunnle).
 
